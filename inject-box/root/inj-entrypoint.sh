@@ -16,6 +16,6 @@ function run-target() {
 }
 /entrypoint.sh &
 sleep 5
-inject-dll &
+inject-monitor &
 run-target &
 wait
